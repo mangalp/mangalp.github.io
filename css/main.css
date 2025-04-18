@@ -79,6 +79,9 @@ body {
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .news-list li {
