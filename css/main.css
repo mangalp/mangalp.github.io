@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     line-height: 1.6;
     background-color: #f8f9fa;
@@ -21,15 +21,15 @@ body {
 }
 
 .jumbotron h3 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 20px;
     color: #2c3e50;
 }
 
 .jumbotron p {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.8;
@@ -111,11 +111,15 @@ body {
 }
 
 .landing-research-areas b {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
     color: #2c3e50;
     font-size: 16px;
 }
 
 .landing-research-areas span {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: #666;
 }
