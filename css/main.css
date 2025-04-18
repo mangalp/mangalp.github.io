@@ -1,0 +1,84 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.image-about-me {
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.link-icon-list {
+    margin-top: 20px;
+}
+
+.link-icon-list-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.link-icon-list-icon a {
+    color: #333;
+    font-size: 24px;
+}
+
+.link-icon-list-icon a:hover {
+    color: #007bff;
+}
+
+.whyText {
+    margin: 30px 0 20px;
+    color: #2c3e50;
+}
+
+.incentiveRow {
+    margin-bottom: 30px;
+}
+
+.news-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.news-list li {
+    margin-bottom: 15px;
+}
+
+.publication {
+    margin-bottom: 20px;
+}
+
+.publication img {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-research-areas {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.landing-research-areas b {
+    color: #2c3e50;
+}
+
+hr {
+    border-color: #ddd;
+    margin: 30px 0;
+} 
