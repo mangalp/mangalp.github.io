@@ -93,78 +93,50 @@ body {
     padding-left: 0;
 }
 
-.publication {
-    margin-bottom: 20px;
-    padding: 0;
-    background: none;
-    box-shadow: none;
-    display: block;
-    position: relative;
-    padding-left: 8px;
+.publications-list {
+    list-style-type: none;
+    padding-left: 0;
     margin-left: 0;
 }
 
-.publication:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 2px;
-    color: #3498db;
-    font-size: 16px;
-    line-height: 1.6;
+.publication-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .publication-title {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    font-size: 18px;
-    color: #2c3e50;
-    display: inline;
-}
-
-.publication-year {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
     font-size: 16px;
-    color: #666;
-    display: inline;
+    color: #2c3e50;
+    margin-bottom: 8px;
 }
 
 .publication-authors {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    color: #333;
-    display: block;
-    margin: 4px 0 2px 0;
-}
-
-.publication-venue {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
-    display: block;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
 }
 
-.publication a {
+.publication-links {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
+}
+
+.publication-links a {
     color: #3498db;
     text-decoration: none;
-    margin-right: 10px;
     transition: color 0.3s ease;
-    display: inline-block;
 }
 
-.publication a:hover {
+.publication-links a:hover {
     color: #2980b9;
     text-decoration: underline;
-}
-
-.publication img {
-    display: none;
 }
 
 .landing-research-areas {
