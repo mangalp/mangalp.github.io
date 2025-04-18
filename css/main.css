@@ -126,12 +126,21 @@ body {
 .publication-links {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
+    margin-top: 8px;
+}
+
+.publication-venue {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
 }
 
 .publication-links a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
+    margin-right: 15px;
 }
 
 .publication-links a:hover {
