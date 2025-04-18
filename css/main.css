@@ -99,7 +99,7 @@ body {
     box-shadow: none;
     display: block;
     position: relative;
-    padding-left: 15px;
+    padding-left: 8px;
     margin-left: 0;
 }
 
@@ -110,6 +110,7 @@ body {
     top: 2px;
     color: #3498db;
     font-size: 16px;
+    line-height: 1.6;
 }
 
 .publication-title {
