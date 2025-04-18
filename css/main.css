@@ -9,12 +9,12 @@ body {
 .container {
     max-width: 980px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .jumbotron {
     background-color: #fff;
-    padding: 30px 0;
+    padding: 30px 20px;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -78,11 +78,12 @@ body {
 .news-list {
     list-style-type: none;
     padding-left: 0;
+    margin-left: 0;
 }
 
 .news-list li {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 10px 15px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
