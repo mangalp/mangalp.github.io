@@ -3,6 +3,7 @@ body {
     color: #333;
     line-height: 1.6;
     background-color: #f8f9fa;
+    font-weight: 300;
 }
 
 .container {
@@ -17,6 +18,23 @@ body {
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.jumbotron h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.jumbotron p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
 }
 
 .image-about-me {
@@ -85,8 +103,8 @@ body {
 }
 
 .landing-research-areas {
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 15px;
+    padding: 12px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -94,6 +112,12 @@ body {
 
 .landing-research-areas b {
     color: #2c3e50;
+    font-size: 14px;
+}
+
+.landing-research-areas span {
+    font-size: 14px;
+    color: #666;
 }
 
 .contact-info {
